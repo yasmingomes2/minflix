@@ -1,0 +1,69 @@
+body {
+    color: rgb(243, 11, 85);
+    background: black;
+    margin: 0px;
+    font-family: "Sevillana";
+    margin-bottom: 100px;
+
+}
+
+header {
+     border-bottom : solid 8px rgb(233, 233, 233);
+     padding: 20px;
+     font-size: 32px;
+     color: rgb(20, 152, 93);
+}
+
+.chamada {
+     background:rgb(243, 11, 85);
+     padding-bottom: 80px;
+     padding-top: 50px;
+     display: flex;
+     justify-content: center;
+}
+     
+.chamada-texto {
+     margin-right: 5%;
+     color: white;
+     font-size: 30px;
+}
+
+h1 {
+     font-size: 40px;
+}
+
+p{
+     font-size: 30px;
+}
+
+.categoria-videos {
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+}
+
+
+.categoria{
+     padding-left: 30px;
+     padding-right: 30px;   
+    margin-top:50px; 
+    
+}
+
+.categoria-videos img{
+     opacity: 0.5;
+     height:200px;
+
+}
+
+.categoria-videos img:hover{
+     opacity: 1.0;
+     border: 2px solid rgb(95, 162, 221);
+}
+
+
+.categoria h2{
+    color:blue(228, 16,130);
+  
+
+}
